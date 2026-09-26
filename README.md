@@ -192,7 +192,7 @@ No external Python libraries are required if the project uses only Python's buil
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+https://github.com/Crystal2005-cyber/CSE1021-23BCY10299.git
 ```
 
 ### Step 2: Open the Project Directory
