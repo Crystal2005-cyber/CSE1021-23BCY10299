@@ -1,0 +1,9 @@
+[
+    {
+        "complaint_id": "CMP001",
+        "student_id": "STU001",
+        "category": "Electricity",
+        "description": "Fan is not working",
+        "status": "OPEN"
+    }
+]

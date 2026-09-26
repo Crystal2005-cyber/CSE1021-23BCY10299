@@ -1,0 +1,12 @@
+[
+    {
+        "student_id": "STU001",
+        "name": "Rahul",
+        "age": 20,
+        "gender": "Male",
+        "course": "CSE",
+        "year": 2,
+        "phone": "9876543210",
+        "room_number": "A101"
+    }
+]
