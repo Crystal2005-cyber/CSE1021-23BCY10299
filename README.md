@@ -51,13 +51,15 @@ The room management module provides:
 
 ### 3. 💰 Fee Management
 
-The fee management module allows:
+The Fee Management module provides the following features:
 
-* Recording hostel fee payments.
-* Viewing payment records.
-* Checking payment status.
-* Tracking pending fees.
-* Generating fee summaries.
+* Record student fee payments
+* View fee payment records
+* View individual student fee history
+* Calculate total fees collected
+* Generate fee reports based on recorded payments
+
+Note: The current implementation records successful payments with the status PAID. Pending fee tracking is not implemented in the current version and can be added as a future enhancement
 
 ### 4. 📝 Complaint Management
 
