@@ -75,12 +75,11 @@ The complaint module provides:
 
 The reporting module provides:
 
-* Student reports.
-* Room occupancy reports.
-* Available-room reports.
-* Fee payment reports.
-* Pending-fee reports.
-* Complaint status reports.
+- Student information through hostel summary
+- Room occupancy reports
+- Available-room reports
+- Fee payment reports
+- Complaint status reports
 
 ---
 
@@ -200,7 +199,7 @@ https://github.com/Crystal2005-cyber/CSE1021-23BCY10299.git
 ### Step 2: Open the Project Directory
 
 ```bash
-cd Hostel-Management-System
+cd CSE1021-23BCY10299
 ```
 
 ### Step 3: Check Python Installation
@@ -262,7 +261,6 @@ Testing includes:
 * Allocating available rooms.
 * Preventing allocation when a room is full.
 * Recording fee payments.
-* Checking pending fees.
 * Registering complaints.
 * Updating complaint status.
 * Generating reports.
