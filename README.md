@@ -427,11 +427,11 @@ It can also be extended to provide limited functionality to students.
 
 ## 📌 Project Information
 
-**Project Title:** Hostel Management System
-**Course:** CSE1021
-**Programming Language:** Python
-**Project Type:** Academic / Mini Project
-**Version:** 1.0
+* **Project Title:** Hostel Management System
+* **Course:** CSE1021
+* **Programming Language:** Python
+* **Project Type:** Academic / Mini Project
+* **Version:** 1.0
 
 ---
 
