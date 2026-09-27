@@ -148,33 +148,72 @@ Each module performs a specific function and communicates with the main applicat
 ## 🔄 System Workflow
 
 ```text
-                    START
-                      │
-                      ▼
-                 Main Menu
-                      │
-        ┌─────────────┼─────────────┐
-        │             │             │
-        ▼             ▼             ▼
-     Students       Rooms          Fees
-        │             │             │
-        ▼             ▼             ▼
-     Manage        Allocate       Manage
-     Records        Rooms         Payments
-        │             │             │
-        └─────────────┼─────────────┘
-                      │
-                      ▼
-                 Complaints
-                      │
-                      ▼
-                   Reports
-                      │
-                      ▼
-                    EXIT
+START                    
+  │
+  ▼
+Initialize Data Files
+(students.json, rooms.json, fees.json, complaints.json)
+  │
+  ▼
+┌──────────────────────────┐
+│       MAIN MENU          │
+└──────────────────────────┘
+  │
+  ├──────────────► 1. Student Management
+  │                    │
+  │                    ├── Add Student
+  │                    ├── View Students
+  │                    ├── Search Student
+  │                    ├── Update Student
+  │                    └── Delete Student
+  │                    │
+  │                    ▼
+  │               Return to Main Menu
+  │
+  ├──────────────► 2. Room Management
+  │                    │
+  │                    ├── Add Room
+  │                    ├── View Rooms
+  │                    ├── Allocate Room
+  │                    └── Vacate Room
+  │                    │
+  │                    ▼
+  │               Return to Main Menu
+  │
+  ├──────────────► 3. Fee Management
+  │                    │
+  │                    ├── Record Payment
+  │                    ├── View Fee Records
+  │                    └── Student Fee History
+  │                    │
+  │                    ▼
+  │               Return to Main Menu
+  │
+  ├──────────────► 4. Complaint Management
+  │                    │
+  │                    ├── Register Complaint
+  │                    ├── View Complaints
+  │                    └── Update Complaint Status
+  │                    │
+  │                    ▼
+  │               Return to Main Menu
+  │
+  ├──────────────► 5. Reports & Analytics
+  │                    │
+  │                    ├── Hostel Summary
+  │                    ├── Room Report
+  │                    ├── Fee Report
+  │                    └── Complaint Report
+  │                    │
+  │                    ▼
+  │               Return to Main Menu
+  │
+  └──────────────► 6. Exit
+                       │
+                       ▼
+                      END
+                      
 ```
-
----
 
 ## 📋 Requirements
 
